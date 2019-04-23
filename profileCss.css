@@ -4,18 +4,74 @@ html,body {
 
 
 
-.columns
+.BioColumns
 {
 
-	 /*border: 5px solid red;*/
-	 padding-bottom:1em;
+	 border: 5px solid red;
+	 /*padding-bottom:1em;*/
 }
 
 
 .ROWS
 {
 
-	padding-bottom:0.1em;
-	/*border: 5px solid yellow;*/
+	padding-bottom:10%;
+	border: 5px solid yellow;
 
+}
+
+.CourseList
+{
+
+	border: 5px solid red;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+  	overflow-y: scroll; /* Add vertical scrollbar */
+  	width:1em;
+  	height:15em;
+}
+
+
+.ExperienceCol
+{
+
+	border: 5px solid red;
+	overflow-x: scroll; /* Hide horizontal scrollbar */
+  	overflow-y: hidden; /* Add vertical scrollbar */
+  	width:1em;
+  	height:15em;
+
+}
+
+.ExperienceSection
+{
+	display:block;
+	width:45em;
+	text-align:center;
+
+}
+
+
+
+#personPic
+{
+
+
+	height:11em;
+	width:11em;
+	/*display:inline-block;*/
+	
+}
+
+#personName
+{
+	color:blue;
+	float:right;
+
+}
+
+div.jumbotron div
+{
+	width:45em;
+	/*text-align:left;*/
+	margin-right:32.2em;
 }
