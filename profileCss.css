@@ -16,12 +16,9 @@ body
 }
 #personPic
 {
-
-
 	height:11em;
 	width:11em;
 	/*display:inline-block;*/
-	
 }
 
 #personName
@@ -45,6 +42,7 @@ div.jumbotron div
 	 /*border: 5px solid red;*/
 	 /*padding-bottom:1em;*/
 	 background:rgb(60, 117, 10);
+	 /*height:12em;*/
 }
 /*#GridContainer
 {
@@ -57,9 +55,15 @@ div.jumbotron div
 {
 	width:60em;
 	background:white;
-	padding-bottom:10%;
+	padding-bottom:0.2em;
 	border: 5px solid yellow;
 
+
+}
+
+#Experience
+{
+	color:black;
 }
 
 .CourseList
