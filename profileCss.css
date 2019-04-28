@@ -43,6 +43,7 @@ div.jumbotron div
 	 /*padding-bottom:1em;*/
 	 background:rgb(60, 117, 10);
 	 /*height:12em;*/
+	 border-right:5px solid yellow;
 }
 /*#GridContainer
 {
@@ -63,13 +64,23 @@ div.jumbotron div
 
 #Experience
 {
-	color:black;
+	color:white;
 }
+
+#experienceRow
+{
+	/*space btw the rows */
+	padding-top:2em;
+}
+
+
+
 
 .CourseList
 {
-
-	/*border: 5px solid red;*/
+	/*margin-left:0.1em;*/
+	/*padding-left:1em;*/
+	border-left: 5px solid yellow;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
   	overflow-y: scroll; /* Add vertical scrollbar */
   	width:1em;
@@ -91,9 +102,11 @@ div.jumbotron div
 
 .ExperienceSection
 {
+	/*color:white;*/
 	display:block;
-	width:45em;
+	width: 100%;
 	text-align:center;
+	background-color:rgb(60, 117, 10);;
 
 }
 
