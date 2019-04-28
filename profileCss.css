@@ -1,57 +1,19 @@
 html,body {
   height: 100%;
+  /*background:gray;*/
+  color:white;
 }
 
-
-
-.BioColumns
+body
 {
-
-	 border: 5px solid red;
-	 /*padding-bottom:1em;*/
+	background:#e6e8ed;
 }
 
-
-.ROWS
+/*jumbutron*/
+.jumbotron 
 {
-
-	padding-bottom:10%;
-	border: 5px solid yellow;
-
+	background:rgb(48, 109, 209);
 }
-
-.CourseList
-{
-
-	border: 5px solid red;
-	overflow-x: hidden; /* Hide horizontal scrollbar */
-  	overflow-y: scroll; /* Add vertical scrollbar */
-  	width:1em;
-  	height:15em;
-}
-
-
-.ExperienceCol
-{
-
-	border: 5px solid red;
-	overflow-x: scroll; /* Hide horizontal scrollbar */
-  	overflow-y: hidden; /* Add vertical scrollbar */
-  	width:1em;
-  	height:15em;
-
-}
-
-.ExperienceSection
-{
-	display:block;
-	width:45em;
-	text-align:center;
-
-}
-
-
-
 #personPic
 {
 
@@ -64,7 +26,7 @@ html,body {
 
 #personName
 {
-	color:blue;
+	color:white;
 	float:right;
 
 }
@@ -75,3 +37,61 @@ div.jumbotron div
 	/*text-align:left;*/
 	margin-right:32.2em;
 }
+
+
+.BioColumns 
+{
+
+	 /*border: 5px solid red;*/
+	 /*padding-bottom:1em;*/
+	 background:rgb(60, 117, 10);
+}
+/*#GridContainer
+{
+	background:pink;
+	
+
+}*/
+
+.ROWS
+{
+	width:60em;
+	background:white;
+	padding-bottom:10%;
+	border: 5px solid yellow;
+
+}
+
+.CourseList
+{
+
+	/*border: 5px solid red;*/
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+  	overflow-y: scroll; /* Add vertical scrollbar */
+  	width:1em;
+  	height:15em;
+  	background:rgb(60, 117, 10);
+}
+
+
+.ExperienceCol
+{
+
+	/*border: 5px solid red;*/
+	overflow-x: scroll; /* Hide horizontal scrollbar */
+  	overflow-y: hidden; /* Add vertical scrollbar */
+  	width:1em;
+  	height:15em;
+  	background:rgb(60, 117, 10);
+}
+
+.ExperienceSection
+{
+	display:block;
+	width:45em;
+	text-align:center;
+
+}
+
+
+
