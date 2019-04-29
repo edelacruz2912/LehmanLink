@@ -1,0 +1,47 @@
+html,body ,.cContainer
+{
+	/*background-color:green;*/
+	height: 100%;
+	background-color:green;
+}
+
+
+/*SearhBox*/
+.searchBox
+{
+	width:65em;
+	height:17em;
+	margin-left:20em;
+	margin-right:20em;
+	background-color:white;
+}
+
+#searhBSystem
+{
+	height:100%;
+}
+
+/*Form Of The SearchBox*/
+form
+{
+	height:100%;
+}
+
+/*searchResult*/
+
+.container ,.searchR
+{
+
+	height:100%;
+	width:65em;
+	margin-left:;
+}
+
+.searchR div
+{
+
+	border: 5px solid black;
+	padding-left:1em;
+	text-align:center;
+
+} 

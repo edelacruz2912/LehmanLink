@@ -2,8 +2,139 @@
 <html>
 <head>
 	<title>Search</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- custome Css File  -->
+	<link rel="stylesheet" type="text/css" href="searchCss.css">
+
+
+
 </head>
 <body>
+
+	<div class = "cContainer"> 
+		<h1>LehmanLink</h1>
+
+		<div class = "searchBox">
+
+
+			<!-- Table to Display Information -->
+
+			<form>
+				<h2>Search For:</h2>		
+				<div class="container" id = "searhBSystem">
+					<div class="row ROWS" >
+						<div class="col-lg-4">
+							<label for = "personName "> 
+								Name <input type="text" id = "personName" name="personName"  > 
+							</label>							
+						</div>
+
+						<div class="col-lg-4">
+							
+							<label for = "personLastName "> 
+								Last Name <input type="text" id = "personLastName" name="personLastName"  >
+							</label>
+
+						</div>
+
+
+						<div class="col-lg-4">
+							<label for = "EmpleId"> 
+								EmpleId <input type="text" id = "EmpleId" name="EmpleId"  >
+							</label>
+						</div>
+
+
+					</div>
+					<div class="row ROWS" >
+						<div class="col-lg-4">
+
+							<label for = "courseName "> 
+								Course <input type="text" id = "courseName" name="courseName"  >
+							</label>							
+						</div>
+
+						<div class = "col-lg-4">
+
+							<label for = "Semester"> 
+								Semester <input type="text" id = "Semester" name="Semester"  >
+							</label>
+
+						</div>
+
+						<div class = "col-lg-4">
+							
+							<label for = "Year"> 
+								Year <input type="text" id = "Year" name="Year"  >
+							</label>
+
+
+						</div>
+
+
+					</div>
+					<div class="row ROWS" >
+						<div class="col-lg-6">
+							<button type="button" onclick="alert('More filters was clicked')">More Filters</button>
+							<!-- <input type="submit" onclick="alert('Search was Clicked')" value = "Search"> -->
+						</div>
+						<div class="col-lg-6">
+							<!-- <button type="button" onclick="alert('More filters was clicked')">More Filters</button> -->
+							<input type="submit" onclick="alert('Search was Clicked')" value = "Search">
+						</div>
+					</div>
+				</div><!-- The end of GridSystemContainer    -->
+
+			</form>		
+
+
+
+		</div>
+
+
+		<!-- Table to Display Information -->
+		<div class="container">
+
+			<div class="row searchR" >				
+				<div class="col-lg-2">
+					
+					<h2>Name</h2>				
+					
+				</div>
+				<div class="col-lg-2">
+					
+					<h2>Type</h2>					
+					
+				</div>
+				<div class="col-lg-2">
+
+					<h2>Course</h2>					
+
+				</div>
+				<div class="col-lg-2">
+
+					<h2>Year</h2>
+					
+				</div>
+				<div class="col-lg-2">
+
+					<h2>Semester</h2>					
+
+				</div>
+				<div class="col-lg-2">
+
+					<h2>Instructor</h2>			
+
+				</div>
+
+			</div>
+
+			
+		</div><!-- The end of GridSystemContainer    -->
+	</div>
+
+
 
 </body>
 </html>
